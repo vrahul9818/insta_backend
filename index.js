@@ -10,6 +10,8 @@ const port = 8081||process.env.port;
 
 const uri = `mongodb+srv://rahul:rahul@cluster0.hdglsf9.mongodb.net/?retryWrites=true&w=majority`
 
+//constant added for git
+
 mongoose.connect(uri,(err)=>{
     if(err){
         console.log("error")
